@@ -12,14 +12,10 @@ public class MultiArray {
 		a[1][0]=4;
 		a[1][1]=5;
 		
-		for(int row[]:a)
-		{
-			for (int col:row)
-			{
-				System.out.println(col);
-			}
-		}
-
+		
+		  for(int row[]:a) { for (int col:row) { System.out.println(col); } }
+		 
+		
 	}
 
 }
